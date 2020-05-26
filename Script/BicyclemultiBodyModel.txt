@@ -1,0 +1,43 @@
+% Run BicyclemultiBodyModel.txt
+
+RigidFrame F,i1,i2
+RigidBody B2				% rear wheel
+Variables xc', yc',theta',psi',phi',beta', delta', epsilon'
+Constant R
+i1.rotateY(F,psi)
+i2.rotateX(i1,theta)
+B2.rotateZ(i2,phi)
+
+%-------Generelized Coordinates----------------%
+
+q = [xc, yc, theta, psi, phi, beta, delta, epsilon]
+qDot = Dt(q)
+
+
+%-------Biycyle kinematics-------------------%
+RigidBody B3, B4, B5			% B3 is rear frame, B4 is front frame and B5 is front wheel
+B3.rotateY(B2,beta)
+B4.RotateZ(B3,delta)
+B5.RotateY(B4,epsilon)
+
+Point C(B2)					% RW contact point
+C.SetPosition(Fo,xc*Fx>+yc*Fy>)			% in frame F
+% rear wheel cm in i2 frame
+rG2_i2> = -R * i2y>				% in CP frame	
+B2o.SetPosition(C,rG2_i2>)
+
+Constant l_Rf,l_Ff				% length of the rear frame
+rG4_B3> = B3o.SetPosition(B2o,l_Rf*B3z>) 	% position vector from RW cm to steering joint (frame B4)
+rG5_B4> = B4o.SetPosition(B3o,l_Ff*B4z>)	% posiiton vector of FW from Front frame
+
+%-------Constraints-----------------%
+
+Point D(B5)					% fron wheel CP
+Variable zeta'
+rp_B5> = R*cos(zeta)*B5x> + R*sin(zeta)*B5y>	% in B5 frame (zeta = 90 - epsilon)
+tp_B5> = D(rp_B5>,zeta,B5)
+tp = F.GetRotation(B5)*tp_B5>
+
+
+
+

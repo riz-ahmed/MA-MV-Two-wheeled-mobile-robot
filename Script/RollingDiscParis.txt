@@ -1,0 +1,37 @@
+% Defining frames
+NewtonianFrame I
+RigidFrame Z,Z1						% lean and orientation frames
+RigidBody B						% body fixed frame
+Point BI(B)						% Contact point
+
+% Rotational kinematics
+Variable psi',phi',theta'				% Euler angle (3-1-2)
+Z.RotatePositiveZ(I,psi)				% Frame Z orientation frame
+Z1.RotateNegativeX(Z,phi)				% Frame Z1 roll frame
+B.RotatePositiveY(Z1,theta)				% Frame B - spin/Body fixed frame
+
+% Angular velocity
+wBI> = B.GetAngularVelocity(I)
+
+% Angular velocity in Z1 frame
+omega_x = Dot(wBI>,Z1x>)
+omega_y = Dot(wBI>,Z1y>)
+omega_z = Dot(wBI>,Z1z>)
+
+% Translational kinematics
+Variable x'',y''					% coordinates in I
+Constant r							% radius of the disc
+
+v_BCm_I> = Dt(BCm.SetPosition(Io,x*Ix>+y*Iy>+r*Z1z>),I)
+
+% Kinetic Energy
+Constant m
+B.SetMass(m)
+B.SetInertia(BCm, Z1, Jt, Ja, Jt)
+v_BCm_Z1> = Express(v_BCm_I>,Z1)
+KE = B.GetKineticEnergy(Z1)
+
+% Potential Energy
+g> = -9.81*Iz>
+System.AddForceGravity(g>)
+PE = System.GetForceGravityPotentialEnergy(g>,Io)
