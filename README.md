@@ -2,7 +2,7 @@
 
 <h1>Model Validation for a Two-Wheeled Vehicle using Multibody Simulation and Experimental Data</h1>
 
-<img src="https://user-images.githubusercontent.com/38962235/90955651-acd76c00-e47f-11ea-93b7-9d495311a948.PNG" alt="Italian Trulli">
+<img src="https://user-images.githubusercontent.com/38962235/90955651-acd76c00-e47f-11ea-93b7-9d495311a948.PNG" alt="BicycleModel">
 
 <p>Git repository of my masters thesis submitted to LRS, TU Kaiserslautern. The thesis covers the following objectives:
 <ul>
@@ -19,3 +19,5 @@
 <p>The non-holonomic constrainted wheel model follows the constraints not on the position but on velocity as follows 
 <img src="https://render.githubusercontent.com/render/math?math=\dot{x} = v cos{\varphi}"> and <img src="https://render.githubusercontent.com/render/math?math=\dot{x} = v sin{\varphi}">, where <img src="https://render.githubusercontent.com/render/math?math=v"> is the forward velocity of the wheel
 </p>
+The wheel geometry is defined kinematically in SimMecahnics as shown in the following figure:
+<img src="(https://user-images.githubusercontent.com/38962235/90957757-26775600-e490-11ea-804f-8dd92d91e1aa.PNG" alt="WheelCoordinateSystem">
