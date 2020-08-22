@@ -71,6 +71,13 @@ This is in accordance with the Eigenvalue analysis perfomed in lienar bicycle mo
 Further dynamics of the bike are established such as a non-minimal phase behavior. Where any small perturbation causes the steering to turn initially in the oppoiste direction and then self-correct itself in the direction of turning. This phenomenon is also called as "Counter - Steering" among motorcyclists and used extensively during motocycle racing to effectively turn into a corner. This non-minimal phase behavior can be seen through sensor readings from the simualtion as shown below
 <img src="https://user-images.githubusercontent.com/38962235/90958313-eb772180-e493-11ea-9fa1-ef626944db18.PNG" alt="NonMinimalPhaseBehavior" class="center">
 </p>
-<p>
-After establishing the dynamcis of the bicycle and validating the the simulation model as per the requirements, in the next step a controllability analysis is performed on the bicycle model using state feedback controllers
+
+<h2>Controllabiltiy Analysis</h2>
+  <p>
+    After establishing the dynamcis of the bicycle and validating the the simulation model as per the requirements, in the next step a controllability analysis is performed on the bicycle model using state feedback controller.
+  </p>
+  
+  <p>
+  A full state-feedback controller is designed using LQR technique for tuning, for a reference trajectory of a circular motion, the following path is traced by the simualtion model
+  <img src="https://user-images.githubusercontent.com/38962235/90958537-6856cb00-e495-11ea-9789-ab704c62a233.PNG" alt="PathFollowing">
 </p>
