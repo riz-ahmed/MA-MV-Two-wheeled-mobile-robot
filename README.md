@@ -22,12 +22,12 @@
 
 <p>
   The wheel geometry is defined kinematically in SimMecahnics as shown in the following figure:
-  <img src="https://user-images.githubusercontent.com/38962235/90957757-26775600-e490-11ea-804f-8dd92d91e1aa.PNG" alt="WheelCoordinateSystem" class="center">
+  <img src="https://user-images.githubusercontent.com/38962235/90957757-26775600-e490-11ea-804f-8dd92d91e1aa.PNG" alt="WheelCoordinateSystem">
 </p>
 
 <p>
   A dynamic model is then developed that generates longitudinal and lateral tyre forces at the wheel-road interface as shwon below:
-  <img src="https://user-images.githubusercontent.com/38962235/90957841-9b4a9000-e490-11ea-90ac-c1b70dbbb5ab.PNG" alt="DynamicTyreModel" class="center">
+  <img src="https://user-images.githubusercontent.com/38962235/90957841-9b4a9000-e490-11ea-90ac-c1b70dbbb5ab.PNG" alt="DynamicTyreModel">
 </p>
 
 <p>
@@ -52,13 +52,13 @@ This wheel model contains the following dynamics:
 <p>
 Using the wheel model developed in the simulation, a tricycle model is developed using these wheels in order to establish the presence of centripetal forces while turning that maintain previously mentioned non-holonomic constraints. A pendulum is attached to the body of the tricycle model, which deflects as the tricycle turns into a corner. Reading the sensor values attached to this pendulum in the simulation will show the presense of forces that the tricycle body experiences while turning into a corner.
 
-<img src="https://user-images.githubusercontent.com/38962235/90958096-4d368c00-e492-11ea-9297-d2f478414948.PNG" alt="Tricyclemodel" class="center">
+<img src="https://user-images.githubusercontent.com/38962235/90958096-4d368c00-e492-11ea-9297-d2f478414948.PNG" alt="Tricyclemodel">
 </p>
 
 <h2>Bicycle Model</h2>
 <p>
 After establishing that the wheel model certainly follows the non-holonomic constraints, a bicycle model is developed using these wheels in the simulator as shwon in the figure
-<img src="https://user-images.githubusercontent.com/38962235/90958137-9b4b8f80-e492-11ea-8878-b0dcaad78607.PNG" alt="BlueBike" class="center">
+<img src="https://user-images.githubusercontent.com/38962235/90958137-9b4b8f80-e492-11ea-8878-b0dcaad78607.PNG" alt="BlueBike">
 </p>
 <p>
 The self-stability of the bicycle model developed can be explored running the simultion in various conditions, one of the these tests produced during simulation is as shown
