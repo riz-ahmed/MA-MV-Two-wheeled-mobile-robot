@@ -17,5 +17,5 @@
 
 <h2> Modeling a non-holonomic constrainted bicycle wheel </h2>
 <p>The non-holonomic constrainted wheel model follows the constraints not on the position but on velocity as follows 
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+<img src="https://render.githubusercontent.com/render/math?math=\dot{x} = v cos{\varphi}"> and <img src="https://render.githubusercontent.com/render/math?math=\dot{x} = v sin{\varphi}">, where <img src="https://render.githubusercontent.com/render/math?math=v"> is the forward velocity of the wheel
 </p>
