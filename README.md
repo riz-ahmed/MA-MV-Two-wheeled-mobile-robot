@@ -48,10 +48,10 @@ After establishing that the wheel model certainly follows the non-holonomic cons
 <img src="https://user-images.githubusercontent.com/38962235/90958137-9b4b8f80-e492-11ea-8878-b0dcaad78607.PNG" alt="BlueBike">
 
 The self-stability of the bicycle model developed can be explored running the simultion in various conditions, one of the these tests produced during simulation is as shown
-<img src="https://user-images.githubusercontent.com/38962235/90958155-d0f07880-e492-11ea-8db5-867772f962a6.PNG", alt="SelfStableMotion">
+<img src="https://user-images.githubusercontent.com/38962235/90958155-d0f07880-e492-11ea-8db5-867772f962a6.PNG" alt="SelfStableMotion">
 This is in accordance with the Eigenvalue analysis perfomed in lienar bicycle model. It can be seen form this figure that for any small perturbation, the lean angle and the seering angle of the bicycle damps out slowly and maintains the steady motion, self correction the external perturbation and therby maintaining stability without the influnce of a rider. This phenomenon is also refered as "Ghost Riding". This also serves one of an important characteristic while designing controllers for reference tracking when stability of the system is already achieved.
 
 Further dynamics of the bike are established such as a non-minimal phase behavior. Where any small perturbation causes the steering to turn initially in the oppoiste direction and then self-correct itself in the direction of turning. This phenomenon is also called as "Counter - Steering" among motorcyclists and used extensively during motocycle racing to effectively turn into a corner. This non-minimal phase behavior can be seen through sensor readings from the simualtion as shown below
-<img src="https://user-images.githubusercontent.com/38962235/90958313-eb772180-e493-11ea-9fa1-ef626944db18.PNG", alt="NonMinimalPhaseBehavior">
+<img src="https://user-images.githubusercontent.com/38962235/90958313-eb772180-e493-11ea-9fa1-ef626944db18.PNG" alt="NonMinimalPhaseBehavior">
 
 After establishing the dynamcis of the bicycle and validating the the simulation model as per the requirements, in the next step a controllability analysis is performed on the bicycle model using state feedback controllers
