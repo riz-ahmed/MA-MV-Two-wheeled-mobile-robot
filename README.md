@@ -20,4 +20,4 @@
 <img src="https://render.githubusercontent.com/render/math?math=\dot{x} = v cos{\varphi}"> and <img src="https://render.githubusercontent.com/render/math?math=\dot{x} = v sin{\varphi}">, where <img src="https://render.githubusercontent.com/render/math?math=v"> is the forward velocity of the wheel
 </p>
 The wheel geometry is defined kinematically in SimMecahnics as shown in the following figure:
-<img src="(https://user-images.githubusercontent.com/38962235/90957757-26775600-e490-11ea-804f-8dd92d91e1aa.PNG" alt="WheelCoordinateSystem">
+<img src="https://user-images.githubusercontent.com/38962235/90957757-26775600-e490-11ea-804f-8dd92d91e1aa.PNG" alt="WheelCoordinateSystem">
