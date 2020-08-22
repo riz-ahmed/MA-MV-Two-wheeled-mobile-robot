@@ -16,4 +16,4 @@
 </p>
 
 <h2> Modeling a non-holonomic constrainted bicycle wheel </h2>
-<p>The non-holonomic constrainted wheel model follows the constraints not on the position but on velocity as follows <img src="https://latex.codecogs.com/gif.latex?\varphi  " /></p>
+<p>The non-holonomic constrainted wheel model follows the constraints not on the position but on velocity as follows <img src="https://latex.codecogs.com/gif.latex?\dot{x} = v cos\varphi  " /> and <img src="https://latex.codecogs.com/gif.latex?\dot{y} = v sin\varphi  " /> </p>
