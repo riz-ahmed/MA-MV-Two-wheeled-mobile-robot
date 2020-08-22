@@ -1,13 +1,5 @@
 # Masters Thesis - Model Validation for a Two-Wheeled Vehicle using Multibody Simulation and Experimental Data
 
-<head>
-<style>
-h1 {text-align: center;}
-p {text-align: center;}
-div {text-align: center;}
-</style>
-</head>
-
 <h1>Model Validation for a Two-Wheeled Vehicle using Multibody Simulation and Experimental Data</h1>
 
 <img src="https://user-images.githubusercontent.com/38962235/90955651-acd76c00-e47f-11ea-93b7-9d495311a948.PNG" alt="Italian Trulli">
