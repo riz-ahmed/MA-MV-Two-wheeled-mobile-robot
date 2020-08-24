@@ -26,6 +26,12 @@
 </ul>
 </p>
 
+<h2>Detailed Siumaltion and Analysis Video</h2>
+
+<p>Chekc out this YouTube video that I created which highlights important simulation parameters and test results from this project
+  <iframe width="949" height="534" src="https://www.youtube.com/embed/azP1CgeyOW4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
 <h2> Modeling a non-holonomic constrainted bicycle wheel </h2>
 <p>The non-holonomic constrainted wheel model follows the constraints not on the position but on velocity as follows 
 <img src="https://render.githubusercontent.com/render/math?math=\dot{x} = v cos{\varphi}"> and <img src="https://render.githubusercontent.com/render/math?math=\dot{x} = v sin{\varphi}">, where <img src="https://render.githubusercontent.com/render/math?math=v"> is the forward velocity of the wheel
