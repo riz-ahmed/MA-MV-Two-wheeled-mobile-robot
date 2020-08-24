@@ -4,6 +4,15 @@
 
 <img src="https://user-images.githubusercontent.com/38962235/90955651-acd76c00-e47f-11ea-93b7-9d495311a948.PNG" alt="BicycleModel">
 
+<h2>Running the Simulation</h2>
+<p>
+  <ul>
+    <li>Open the Simulink Project</li>
+    <li>Run the Model file from Models/BicycleHome.slx, this is the main Simulation File</li>
+    <li>Script file is loaded automoatically to run the model, in order to make changes in the simulation parameters use the file from Script/BicycleInit.m</li>
+</ul>
+</p>
+
 <p>Git repository of my masters thesis submitted to LRS, TU Kaiserslautern. The thesis covers the following objectives:
 <ul>
   <li>Modeling a non-holonomic wheel model that follows the velocity constraints</li>
