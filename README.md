@@ -13,6 +13,8 @@
 </ul>
 </p>
 
+<h2>Introduction</h2>
+
 <p>Git repository of my masters thesis submitted to LRS, TU Kaiserslautern. The thesis covers the following objectives:
 <ul>
   <li>Modeling a non-holonomic wheel model that follows the velocity constraints</li>
