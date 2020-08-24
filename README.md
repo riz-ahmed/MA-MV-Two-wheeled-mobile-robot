@@ -98,3 +98,8 @@ Further dynamics of the bike are established such as a non-minimal phase behavio
   A full state-feedback controller is designed using LQR technique for tuning, for a reference trajectory of a circular motion, the following path is traced by the simualtion model
   <img src="https://user-images.githubusercontent.com/38962235/90958537-6856cb00-e495-11ea-9789-ab704c62a233.PNG" alt="PathFollowing">
 </p>
+
+<h2>Thesis Report</h2>
+<p>
+  Place your requests to my email: rzwn.hmd@gmail.com to get a detailed report of this thesis if you are further interested in getting to know the details of this project. I have taken great efforts to complie my thesis report I am sure you would love to read it once!
+</p>
