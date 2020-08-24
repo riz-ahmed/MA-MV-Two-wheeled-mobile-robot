@@ -29,7 +29,7 @@
 <h2>Detailed Siumaltion and Analysis Video</h2>
 
 <p>Chekc out this YouTube video that I created which highlights important simulation parameters and test results from this project
-  <iframe width="949" height="534" src="https://www.youtube.com/embed/azP1CgeyOW4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  https://youtu.be/azP1CgeyOW4
 </p>
 
 <h2> Modeling a non-holonomic constrainted bicycle wheel </h2>
