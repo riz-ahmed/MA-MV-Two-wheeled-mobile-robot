@@ -1,8 +1,8 @@
 # Masters Thesis
 
-<h1>Model Validation for a Two-Wheeled Vehicle using Multibody Simulation and Experimental Data</h1>
+# Model Validation for a Two-Wheeled Vehicle using Multibody Simulation and Experimental Data
 
-<img src="https://user-images.githubusercontent.com/38962235/90955651-acd76c00-e47f-11ea-93b7-9d495311a948.PNG" alt="BicycleModel">
+[![Bicycle Model]](https://user-images.githubusercontent.com/38962235/90955651-acd76c00-e47f-11ea-93b7-9d495311a948.PNG)
 
 <h2>Running the Simulation</h2>
 <p>
